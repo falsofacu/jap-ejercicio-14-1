@@ -1,0 +1,43 @@
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+}
+
+#opciones {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#opciones ul li {
+  height: 50px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+#lorem-container {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#lorem-container p {
+  margin: 10px 0;
+  padding: 2px 10px;
+  max-width: 250px;
+  background-color: #fbfbfb;
+}
+
+@media (max-width: 992px) {
+  #title {
+    display: none;
+  }
+  #opciones {
+    display: none;
+  }
+  .flex-container {
+    justify-content: center;
+  }
+}
